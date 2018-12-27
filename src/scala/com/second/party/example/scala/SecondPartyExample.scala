@@ -7,4 +7,6 @@ object SecondPartyExample extends App {
   System.out.println("My lib name is 2nd_party_example_8af7967a")
   // Commit #3
   System.out.println("another change")
+
+  def aMethod(p: String): Unit = {}
 }

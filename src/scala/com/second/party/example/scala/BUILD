@@ -4,6 +4,7 @@ scala_library(
     name = "2nd_party_example",
     srcs = [
         "SecondPartyExample.scala",
+        "AJavaClass.java",
         ],
     visibility = ["//visibility:public"],
 )
