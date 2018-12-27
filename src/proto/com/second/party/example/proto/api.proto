@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.second.party.example.proto;
+
+message Identifiable {
+    string id = 1;
+}
