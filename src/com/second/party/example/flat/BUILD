@@ -7,4 +7,7 @@ scala_library(
         "FlatAJavaClass.java",
         ],
     visibility = ["//visibility:public"],
+    deps = [
+        "//src/proto/com/second/party/example/proto:proto_scala",
+    ]
 )
